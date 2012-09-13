@@ -1,7 +1,7 @@
 psi: (
   label = "Test SCF"
   wfn = scf
-  basis = "STO-3G"
+  basis = "DZ"
   multp = 1
   reference = rhf
   units=bohr
