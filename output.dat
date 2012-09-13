@@ -564,3 +564,184 @@ Thu Sep 13 13:06:50 2012
 user time   =       0.68 seconds =       0.01 minutes
 system time =       0.00 seconds =       0.00 minutes
 total time  =          1 seconds =       0.02 minutes
+******************************************************************************
+INPUT tstart called on pander
+Thu Sep 13 16:06:07 2012
+
+                                --------------
+                                    INPUT
+                                --------------
+
+  LABEL       =	Test SCF
+  SHOWNORM    =	0
+  PUREAM      =	0
+  PRINT_LVL   =	1
+
+  Parsed basis sets from /usr/local/psi/share/psi/pbasis.dat
+
+  -Geometry before Center-of-Mass shift (a.u.):
+   Atom            X                  Y                   Z
+  ------   -----------------  -----------------  -----------------
+    O         0.000000000000    -0.143225816552     0.000000000000
+    H         1.638036840407     1.136548822547    -0.000000000000
+    H        -1.638036840407     1.136548822547    -0.000000000000
+
+
+  -Rotational constants (cm-1) :
+    A =   20.53324  B =   11.13094  C =    7.21807
+    It is an asymmetric top.
+
+  -Geometry after Center-of-Mass shift and reorientation (a.u.):
+   Atom            X                  Y                   Z
+  ------   -----------------  -----------------  -----------------
+    O         0.000000000000    -0.143225816552     0.000000000000
+    H         1.638036840407     1.136548822547     0.000000000000
+    H        -1.638036840407     1.136548822547     0.000000000000
+
+
+  -SYMMETRY INFORMATION:
+    Computational point group is C2v 
+    Number of irr. rep.      = 4
+    Number of atoms          = 3
+    Number of unique atoms   = 2
+
+
+  -BASIS SETS:
+
+   -Basis set on unique center 1:
+      ( (S (  7816.54000000     0.00203100)
+           (  1175.82000000     0.01543600)
+           (   273.18800000     0.07377100)
+           (    81.16960000     0.24760600)
+           (    27.18360000     0.61183200)
+           (     3.41360000     0.24120500) )
+        (S (     9.53220000     1.00000000) )
+        (S (     0.93980000     1.00000000) )
+        (S (     0.28460000     1.00000000) )
+        (P (    35.18320000     0.01958000)
+           (     7.90400000     0.12418900)
+           (     2.30510000     0.39472700)
+           (     0.71710000     0.62737500) )
+        (P (     0.21370000     1.00000000) )
+       )
+
+   -Basis set on unique center 2:
+      ( (S (    19.24060000     0.03282800)
+           (     2.89920000     0.23120800)
+           (     0.65340000     0.81723800) )
+        (S (     0.17760000     1.00000000) )
+       )
+
+
+  -BASIS SET INFORMATION:
+    Total number of shells = 10
+    Number of primitives   = 18
+    Number of AO           = 14
+    Number of SO           = 14
+
+    Irrep    Number of SO
+    -----    ------------
+      1            8
+      2            0
+      3            2
+      4            4
+
+  -Contraction Scheme:
+    Atom     All Primitives // Unique Primitives // Shells
+    ----     ---------------------------------------------
+       1      9s 5p //  9s 5p //  4s 2p
+       2      4s //  4s //  2s
+       3      4s //  4s //  2s
+
+
+  -Unique atoms in the canonical coordinate system (a.u.):
+   Atom            X                  Y                   Z
+  ------   -----------------  -----------------  -----------------
+    O         0.000000000000     0.000000000000    -0.143225816552
+    H         0.000000000000     1.638036840407     1.136548822547
+
+
+  -Geometry in the canonical coordinate system (a.u.):
+   Atom            X                  Y                   Z
+  ------   -----------------  -----------------  -----------------
+    O         0.000000000000     0.000000000000    -0.143225816552
+    H         0.000000000000     1.638036840407     1.136548822547
+    H         0.000000000000    -1.638036840407     1.136548822547
+
+
+  -Geometry in the canonical coordinate system (Angstrom):
+   Atom            X                  Y                   Z
+  ------   -----------------  -----------------  -----------------
+    O         0.000000000000     0.000000000000    -0.075791843589
+    H         0.000000000000     0.866811828967     0.601435779270
+    H         0.000000000000    -0.866811828967     0.601435779270
+
+
+  -Geometry in the reference coordinate system (a.u.):
+   Atom            X                  Y                   Z
+  ------   -----------------  -----------------  -----------------
+    O         0.000000000000     0.000000000000    -0.143225816552
+    H         0.000000000000     1.638036840407     1.136548822547
+    H         0.000000000000    -1.638036840407     1.136548822547
+
+
+  --------------------------------------------------------------------------
+
+    Nuclear Repulsion Energy (a.u.) =       8.002367061811
+
+  -The Interatomic Distances in angstroms:
+
+           1           2           3
+
+    1   0.0000000
+    2   1.1000000   0.0000000
+    3   1.1000000   1.7336237   0.0000000
+
+    Note: To print *all* bond angles, out-of-plane
+          angles, and torsion angles set print = 3
+
+
+******************************************************************************
+INPUT tstop called on pander
+Thu Sep 13 16:06:07 2012
+
+user time   =       0.04 seconds =       0.00 minutes
+system time =       0.00 seconds =       0.00 minutes
+total time  =          0 seconds =       0.00 minutes
+******************************************************************************
+cints tstart called on pander
+Thu Sep 13 16:06:11 2012
+
+                  --------------------------------------------
+                    CINTS: An integrals program written in C
+                     Justin T. Fermann and Edward F. Valeev
+                  --------------------------------------------
+
+
+  -OPTIONS:
+    Print level                 = 1
+    Integral tolerance          = 1e-15
+    Max. memory to use          = 2500000 double words
+    Number of threads           = 1
+    LIBINT's real type length   = 64 bit
+
+  -CALCULATION CONSTANTS:
+    Label                       = Test SCF
+    Number of atoms             = 3
+    Number of atomic orbitals   = 14
+    Number of symmetry orbitals = 14
+    Maximum AM in the basis     = 1
+
+  -SYMMETRY INFORMATION;
+    Computational point group        = C2v
+    Number of irreps                 = 4
+
+    Wrote 1709 two-electron integrals to IWL file 33
+
+******************************************************************************
+cints tstop called on pander
+Thu Sep 13 16:06:11 2012
+
+user time   =       0.01 seconds =       0.00 minutes
+system time =       0.00 seconds =       0.00 minutes
+total time  =          0 seconds =       0.00 minutes
